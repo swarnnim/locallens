@@ -1,0 +1,24 @@
+=== LocalLens demo — 2026-10-13 05:22 UTC ===
+Model: Qwen2.5-0.5B-Instruct (Q4_K_M, open weights, Apache 2.0), 100% local
+Document: sample_docs/freelance-nda.txt
+
+--- Q1: extraction ---
+Q: What is the notice period for terminating the agreement?
+
+The notice period for terminating the agreement is thirty (30) days.
+
+(answered from sentence(s) [14, 17] of 32 — run with --show-context to see them)
+
+--- Q2: extraction ---
+Q: How long do the confidentiality obligations survive after the agreement ends?
+
+The confidentiality obligations survive for three years after the agreement ends.
+
+(answered from sentence(s) [14, 1] of 32 — run with --show-context to see them)
+
+--- Q3: honest abstention (answer is not in the document) ---
+Q: What is the penalty for late payment of invoices?
+
+Not found in the document.
+
+(answered from sentence(s) [21] of 32 — run with --show-context to see them)
